@@ -18,7 +18,7 @@ const register = async (req, res) => {
     Users.findOne({ username }, async (err, user) => {
         if(err) throw err
 
-        if(user) return res.status(200).json({ message: 'Username Already Exist!' })
+        if(user) return res.status(202).json({ message: 'Username Already Exist!' })
 
         if(!user){
             const hashedPassword = await bcrypt.hashSync(password, parseInt(process.env.ENCRYPTER))
