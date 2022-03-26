@@ -1,7 +1,7 @@
 {
     "main": {
-        "Airtel": {
-            "company_name": "Airtel",
+        "Grameenphone_Limited": {
+            "company_name": "Grameenphone Limited",
             "company_logo": "http://member.newsshell.com/new_newsshell/asset/company_img/1515406494.png",
             "company_color": "color:#e9f5fb;height:20px;margin:0;",
             "company_bg": "background-color:#0091d2;",
@@ -619,6 +619,232 @@
                             [
                                 "http://member.newsshell.com/new_newsshell/pages/advertise_details/834989",
                                 "Bangladesh Protidin"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "online": {
+        "Grameenphone_Limited": {
+            "company_name": "Grameenphone Limited",
+            "company_logo": "http://member.newsshell.com/new_newsshell/asset/company_img/1515406494.png",
+            "company_color": "color:#e9f5fb;height:20px;margin:0;",
+            "company_bg": "background-color:#0091d2;",
+            "data": [
+                {
+                    "title": "GP-10GB at Recharge 128tk Meyad 7 din",
+                    "news_ref": {
+                        "count": "8",
+                        "info": [
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/834994",
+                                "Banglatribune.com"
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/834995",
+                                "Kalerkantho.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/834996",
+                                "Ntvbd.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/834997",
+                                "Pavilion.com.bd "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/834998",
+                                "Pavilion.com.bd "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/834999",
+                                "Daily-sun.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835000",
+                                "Bikroy.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835001",
+                                "Bikroy.com "
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "Nagad_Limited": {
+            "company_name": "Nagad Limited",
+            "company_logo": "http://member.newsshell.com/new_newsshell/asset/company_img/1571218463.jpg",
+            "company_color": "color:#ffffff;height:20px;margin:0;",
+            "company_bg": "background-color:#f17926;",
+            "data": [
+                {
+                    "title": "Nagad-Send Money Free\t",
+                    "news_ref": {
+                        "count": "3",
+                        "info": [
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835245",
+                                "Unb.com.bd"
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835251",
+                                "Deshrupantor.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835253",
+                                "Businessinsiderbd.com "
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "title": "Nagad-Instant Cashback",
+                    "news_ref": {
+                        "count": "4",
+                        "info": [
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835221",
+                                "Tbsnews.net"
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835249",
+                                "Dhakatimes24.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835264",
+                                "Dhakatribune.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835265",
+                                "Dhakatribune.com "
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "title": "Nagad-Pay Bill Free\t",
+                    "news_ref": {
+                        "count": "10",
+                        "info": [
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835231",
+                                "Banglanews24.com"
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835233",
+                                "Somoynews.tv "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835237",
+                                "Jugantor.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835242",
+                                "Banglatribune.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835243",
+                                "Newagebd.net "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835244",
+                                "Bonikbarta.net "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835246",
+                                "Ctgpratidin.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835247",
+                                "Daily-sun.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835252",
+                                "Ctgnews.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835270",
+                                "TheDailyStar.net "
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "title": "Nagad-Cash out charge 9.99 tk",
+                    "news_ref": {
+                        "count": "12",
+                        "info": [
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835215",
+                                "Channel24bd.tv"
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835218",
+                                "Financialexpress.com.bd "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835227",
+                                "Channelionline.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835269",
+                                "Manobkantha.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835234",
+                                "Dainikshiksha.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835238",
+                                "Ittefaq.com.bd "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835241",
+                                "Barta24.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835248",
+                                "Dhakatimes24.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835250",
+                                "Dhakapost.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835256",
+                                "Mzamin.com "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835261",
+                                "Sarabangla.net "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835262",
+                                "Sarabangla.net "
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "title": "Nagad Account Khulte Dial *167#",
+                    "news_ref": {
+                        "count": "3",
+                        "info": [
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835214",
+                                "Inqilab.com"
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835222",
+                                "Tbsnews.net "
+                            ],
+                            [
+                                "http://member.newsshell.com/new_newsshell/pages/advertise_details/835266",
+                                "Dhakatribune.com "
                             ]
                         ]
                     }
