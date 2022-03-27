@@ -1,6 +1,8 @@
 const fs = require('fs');
 const Alerts = require('../models/Alerts');
 
+// Method 1 Get JSON Parsed File & Save
+// Avoid This block using 2nd method 
 const fileUpload = async (req, res) => {
 	const { filename, content } = req.body
 
@@ -16,9 +18,11 @@ const fileUpload = async (req, res) => {
 	return res.send({  message: 'Upload Complete !' })
 }
 
+// Method 2 Get Uploaded File & Save
 const JSONfileUpload = async (req, res) => {
 	const newAlert = new Alerts({
-		alertname: req.body.myFileName.split('.')[0]
+		alertname: req.body.myFileName.split('.')[0],
+		client: req.body.myFileName.split('_')[0]
 	})
 	try {
 		await newAlert.save()
@@ -35,6 +39,14 @@ const alerts = async (req, res) => {
 	return res.json(allalerts)
 }
 
+const clientAlerts = async (req, res) => {
+	const { client } = req.body
+
+	const alerts = await Alerts.find({ client: client })
+
+	return res.json(alerts)
+}
+
 const generateAlerts = async (req, res) => {
 	const { alertname } = req.body
 
@@ -49,5 +61,6 @@ module.exports = {
 	fileUpload,
 	JSONfileUpload,
 	alerts,
+	clientAlerts,
 	generateAlerts
 }

@@ -13,12 +13,12 @@ const generateAccessToken = (user) => {
 }
 
 const register = async (req, res) => {
-    const { username, password, role } = req.body
+    const { username, password, role, client } = req.body
 
     Users.findOne({ username }, async (err, user) => {
         if(err) throw err
 
-        if(user) return res.status(202).json({ message: 'Username Already Exist!' })
+        if(user) return res.status(409).json({ message: 'Username Already Exist!' })
 
         if(!user){
             const hashedPassword = await bcrypt.hashSync(password, parseInt(process.env.ENCRYPTER))
@@ -26,11 +26,12 @@ const register = async (req, res) => {
             const newUser = new Users({
                 username: username,
                 password: hashedPassword,
-                role: role || 'user',
+                role: role || 'client',
+                client: client
             })
 
             await newUser.save()
-            return res.status(200).json({ message: 'User Created!' })
+            return res.status(200).json({ message: 'User Created! Redirecting...' })
         }
     })
 }
@@ -49,7 +50,7 @@ const login = async (req, res) => {
             if(passwordIsValid){
                 const token = generateAccessToken(user)
 
-                return res.status(200).json({ message: "You are logged in!", token: token, role: user.role })
+                return res.status(200).json({ message: "You are logged in!", token: token, role: user.role, client: user.client })
             }
         }
     })

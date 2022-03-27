@@ -7,6 +7,7 @@ const alertRoutes = require('./routes/alertRoutes')
 
 const app = express()
 
+//allowed all for development purpose only
 app.use(cors({
 	origin: "*"
 }))
